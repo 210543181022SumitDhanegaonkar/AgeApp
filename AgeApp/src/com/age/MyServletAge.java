@@ -28,7 +28,7 @@ public class MyServletAge extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
-		PrintWriter pw=response.getWriter();
+		PrintWriter pw=response.getWriter();//sumit Dhanegaonkar
 		
 		String name=request.getParameter("txtname");
 		String str=request.getParameter("txtage");
